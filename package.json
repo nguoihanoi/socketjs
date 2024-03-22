@@ -2,7 +2,7 @@
   "name": "socketjs",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "build-ts": "tsc",
@@ -13,8 +13,8 @@
   "devDependencies": { 
     "@types/socket.io": "^2.1.4",
     "nodemon": "^1.19.4",
-    "ts-node": "^8.4.1",
-    "typescript": "^3.7.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
   },
   "dependencies": { 
     "redis": "^4.6.13",
