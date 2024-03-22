@@ -16,6 +16,7 @@
   "author": "DaiNT",
   "license": "ISC", 
   "devDependencies": {
+    "@types/socket.io": "^2.1.4",
     "typescript": "^3.9.7"
   }
 }
