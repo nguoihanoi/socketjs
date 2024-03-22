@@ -1,4 +1,3 @@
-
 "use strict";
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -8,7 +7,7 @@ exports.SocketIO = void 0;
 const socket_io_1 = __importDefault(require("socket.io"));
 class SocketIO {
     constructor(httpServer) {
-        this.io = socket_io_1.default(httpServer);
+        this.io = (0, socket_io_1.default)(httpServer);
     }
     Server() {
         return this.io;
