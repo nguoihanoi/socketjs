@@ -1,31 +1,21 @@
 {
-  "name": "socketjs",
+  "name": "socketjs_nguoihanoi",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "description": "Demo npm typescript package",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
-    "dist"
+    "lib"
   ],
   "scripts": {
-    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
-    "build-ts": "tsc",
-    "postinstall": "npm run build-ts",
-    "start": "npm run serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "prepare" : "npm run build",
-    "serve": "node dist/index.js"
+    "prepare" : "npm run build"
   },
-  "devDependencies": { 
-    "@types/socket.io": "^2.1.4",
-    "nodemon": "^1.19.4",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.3"
-  },
-  "dependencies": { 
-    "redis": "^4.6.13",
-    "socket.io": "^2.3.0"
-  },
-  "author": "Nguyen Viet Thanh",
-  "license": "ISC"
+  "keywords": [],
+  "author": "DaiNT",
+  "license": "ISC", 
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
 }
